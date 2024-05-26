@@ -1,0 +1,93 @@
+/* Chatbot container */
+#chatbot-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(to bottom right, #4facfe, #00f2fe);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+}
+
+/* Chat messages container */
+#chatbot-messages {
+    min-height: 200px;
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    white-space: pre-wrap; /* Wrap long lines */
+    word-wrap: break-word; /* Break long words */
+    flex-grow: 1; /* Allow the messages container to grow */
+}
+
+
+/* User message style */
+.user-message {
+    background-color: #f6e58d;
+    color: #333;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    max-width: 70%;
+    float: right;
+    clear: both;
+}
+
+/* Bot message style */
+.bot-message {
+    background-color: #82ccdd;
+    color: #333;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    max-width: 70%;
+    float: left;
+    clear: both;
+    white-space: pre-wrap; /* Wrap long lines */
+    word-wrap: break-word; /* Break long words */
+}
+
+/* User input container */
+#user-input-container {
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center vertically */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top: 1px solid #ccc;
+}
+
+/* User input textarea */
+#user-input {
+    flex-grow: 3; /* Occupy 3/4 of the available space */
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin:5px ;
+    height: 42px;
+
+}
+
+/* Send button style */
+#send-btn {
+    flex-grow: 1; /* Occupy 1/4 of the available space */
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+     margin:5px ;
+  
+}
+
+/* Hover effect on send button */
+#send-btn:hover {
+    background-color: #2980b9;
+}
