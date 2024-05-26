@@ -1,4 +1,4 @@
-## This plugin has been created to the add AI ChatGPT based chatbot to your wordpress site
+## A plugin for adding AI chatbot ( ChatGPT based )  to Wordpress website
 
 1.  Clone or download the my-chatbot folder and add that to your Wordpress plugin folder/directory
 2.  Go to Wordpress Dashboard --> Plugins --> ACTIVATE the plugin my-chatbot    ![image](https://github.com/akilasay/AIChatbotPlugin/assets/145580412/4cad27d8-1280-4b57-b899-15bf8c47e816)
